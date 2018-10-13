@@ -7,7 +7,7 @@ def read_file():
         for lines in f:
             word = lines.strip()
             res.append(word)
-    
+
     return res
 
 # print(read_file())
@@ -18,7 +18,7 @@ def read_file_2():
         for lines in f:
             word = lines.strip()
             res = res + [word]
-    
+
     return res
 
 
